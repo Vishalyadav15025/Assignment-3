@@ -16,7 +16,11 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
-// This is a tempelate literal
+/*
+This is a tempelate literal - remember to use backtick and start with a constant ; 
+        const content = ` whatever you want to be in the html screen`
+        remember to call it once you are through : document.body.innerHTML = content;
+*/ 
 const content = `
 <main>
       <article>
