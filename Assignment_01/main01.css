@@ -1,6 +1,9 @@
+body{
+        font-family: "Lucida Console", "Courier New", monospace;
+}
 #hockey{
     border-radius: 20px;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%
