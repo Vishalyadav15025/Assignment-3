@@ -25,11 +25,11 @@ h1{
     flex-wrap: wrap;
     gap: 20px 20px;
 }
-img {
+.bestbread {
     opacity: 0.8;
   }
   
-  img:hover {
+  .bestbread:hover {
     opacity: 1.0;
     transform: scale(1.05);
   }
@@ -38,3 +38,34 @@ img {
     width: 30%;
     margin: 10px;
   }
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "item-1 item-2 item-3"
+      "item-4 item-4 item-4"
+      "item-4 item-4 item-4";
+  }
+  
+  .item-1 {
+     grid-area: item-1;
+     width: 100%;
+    }
+  
+  .item-2 { 
+    grid-area: item-2;
+    height: 100%; 
+    width: 100%;}
+  
+  .item-3 { 
+    grid-area: item-3; 
+    width: 100%;}
+  
+  .item-4 { 
+    grid-area: item-4; ;
+    width: 100%;
+
+    }
+  
