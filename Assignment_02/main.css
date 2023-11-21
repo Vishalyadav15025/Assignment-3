@@ -1,3 +1,40 @@
-h1{
-    color: blue;
+body{
+    background-image: url(pexels-emma-li-6589610.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    
 }
+h1{
+    color: green;
+    text-align: center;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.breadType {
+    font-style: italic;
+
+}
+.breadImages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+img {
+    opacity: 0.8;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+    transform: scale(1.05);
+  }
+  .wheatbread{
+    float: left;
+    width: 30%;
+    margin: 10px;
+  }
