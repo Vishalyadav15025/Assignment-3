@@ -16,13 +16,13 @@ document.write('<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad o
 document.write('<img id="hockey" src="rodney_bio.jpg" alt="Picture not found" width="600" height="300">');
 
 //using document.write to print out the paragraph under thr article tag
-document.write('<article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, rem. Veniam expedita reiciendis id, nulla blanditiis architecto nemo pariatur ipsa cupiditate, perspiciatis obcaecati animi impedit quidem at qui culpa repellat atque repudiandae, modi corporis? Porro dolores corrupti aliquam eaque debitis a quisquam quas possimus. Ullam suscipit similique architecto perferendis quos rem voluptate, expedita ex doloremque exercitationem nam saepe perspiciatis recusandae eius! Voluptatibus tempora quibusdam vero iusto quia cum nesciunt rerum delectus. Dolores incidunt aspernatur itaque sapiente! Repellat iste, eius, ullam aliquam consequatur delectus laudantium commodi ex nesciunt, pariatur ipsum dolorem. Odit saepe ipsum obcaecati quas cum rerum quis quia corporis?</article>')
+document.write("<article> <p> Rodney is a dedicated and passionate individual who has found his love for the sport of hockey at the Greensharks Hockey Club in Kenya. With a strong sense of commitment to the game, Rodney has become an integral part of the club's hockey community. His skills on the field are commendable, showcasing not only his athleticism but also his strategic thinking and teamwork. As a member of the Greensharks Hockey Club, Rodney actively contributes to the vibrant and competitive hockey scene in Kenya. Whether it's sprinting down the field with the ball or defending the goal with determination, Rodney's presence on the hockey pitch is both inspiring and uplifting for his teammates. Off the field, he embodies the spirit of sportsmanship, fostering camaraderie within the club. Rodney's journey with Greensharks Hockey Club is a testament to the power of sports in building character, fostering friendships, and creating memorable experiences on and off the field.</p></article>")
 
 // using for loop to print out the names in a list. Also introduced the names array andused the document.write to output the result  
 const names = ["Rodney", "Debra", "Brian", "Ankit", "Aman", "Yash", "Vishal", "Arya", "Chux"];
 let text = "<ol>";
 for (let i = 0; i < names.length; i++) {
-    text += names[i] + "<br>";
+    text += "<li>" + names[i] + "</li>";
  }
 text +="</ol>"
 document.write(text)
