@@ -1,5 +1,5 @@
 //an alert to welcome you to the page
-window.alert("Welcome to my World!!");
+//window.alert("Welcome to my World!!");
 // console.log(Math.abs(-6.7))
 // let myString = "Hey Rodney";
 //console.log(myString.toUpperCase())
@@ -27,7 +27,7 @@ for (let i = 0; i < names.length; i++) {
 text +="</ol>"
 document.write(text)
 
-//creating the GoodSchool function and gave it several properties. I also used the constructor method to lay out the properties.
+// creating the GoodSchool function and gave it several properties. I also used the constructor method to lay out the properties.
 class GoodSchool {
     constructor (
         course, 
@@ -72,5 +72,12 @@ const mySchool = `
 </ul>
 `;
 document.write (mySchool);
+//window.alert("Welcome to my World!!");
+requestAnimationFrame(() =>{
+    setTimeout(() =>{
+        window.alert("Welcome to my World!!");
+    });
+}
 
+)
     
