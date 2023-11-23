@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="domMain.css">
-    <style></style>
+    <script type="module" src="domMain.css" defer></script>
    
 </head>
 <body>
     <section id="firstSection">
         <div class="Essentials">
-        <div id="Food">
-            <h2>Food</h2>
+        <div class = "custom-bg">
+            <h2 id="Food">Food</h2>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sed nam, qui mollitia beatae quaerat deserunt odio commodi porro provident velit quam corporis, omnis vel architecto sit unde nemo molestiae magnam debitis minus, quas amet! Neque numquam labore doloremque perferendis. Reiciendis, inventore alias! Voluptatem, voluptatum enim quis dolores vel perspiciatis facere incidunt pariatur vero, iusto reprehenderit ducimus excepturi labore deserunt quibusdam voluptas harum facilis perferendis. Quidem dicta amet tempore, atque illo iure mollitia, itaque dolor, quis maxime iusto magnam hic velit molestias laborum. Cumque molestiae atque alias quia dolore hic amet, explicabo at esse, officia omnis quo vero? Blanditiis, aperiam?
             </p>
         </div>
-        <div id="drinks">
-            <h2>Drinks</h2>
+        <div class = "custom-bg">
+            <h2 id="drinks">Drinks</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eum, eveniet non quaerat voluptate aliquid voluptatum tempore sequi accusamus dignissimos temporibus, repellat saepe deserunt ea aliquam ratione asperiores veniam iste. Nulla odit dolorem est! Voluptatem voluptate perspiciatis aliquam illum error numquam maxime quo vitae odio, itaque aspernatur at. Consequuntur repellat, dicta minus itaque laborum unde molestiae id cum repellendus dolorum ipsum quisquam neque ad adipisci ab voluptatibus tempore libero velit perspiciatis illo in quod ullam?
             </p>
@@ -31,5 +31,21 @@
         </div>
 
     </section>
+
+    <script>
+        let h2Element = document.getElementById("Food");
+        h2Element.childNodes[0].nodeValue = 'The Get Methods'
+        h2Element.style.color = "blue";
+
+        let pElements = document.getElementsByTagName('p'); //HTML collection
+        for (let pElement of pElements) {
+            pElement.style.color = 'brown'
+        };
+
+        let customDivs = document.getElementsByClassName('custom-bg');
+        for (let element of customDivs){
+            element.style.backgroundColor = 'yellow'
+        }
+    </script>
 </body>
 </html>
