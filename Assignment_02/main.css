@@ -7,6 +7,10 @@ body{
     font-family: sans-serif;
     
 }
+#first{
+  display: flex;
+
+}
 h1{
     color: green;
     text-align: center;
@@ -16,6 +20,15 @@ h1{
 .breadType {
     font-style: italic;
 
+}
+.para1{
+
+}
+.para2{
+  
+}
+.para3{
+  
 }
 .breadImages{
     display: flex;
@@ -37,8 +50,14 @@ h1{
     float: left;
     width: 30%;
     margin: 10px;
+    
+    
+    border : double;
+    padding: 5px 5px 5px 5px;
+
   }
-  .container {  display: grid;
+  .container {  
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -86,10 +105,20 @@ h1{
     cursor: pointer; 
     }
     #button:hover {
-      background-color: white; 
-      color: black;
+      background-color: rgb(182, 24, 24); 
+      color: rgb(0, 0, 0);
+      width: 300px;
+      font-size: x-large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     #third{
       display: none;
     }
+    footer{
+      background-color: lightslategray;
+      text-align: center;
+      padding: 3px;
+      font-style: italic;
+    }
+
   

@@ -9,7 +9,7 @@ x.addEventListener("click", toggleDiv);
 
 function toggleDiv() {
     // Get the reference to the div
-    var third = document.getElementById('third');
+    let third = document.getElementById('third');
 
     // Toggle the display property
     if (third.style.display === 'none') {
@@ -20,3 +20,6 @@ function toggleDiv() {
         third.style.display = 'none';
     }
   }
+  
+
+  document.getElementById("test").innerHTML = "Rodney Mwale"
