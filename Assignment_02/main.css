@@ -7,6 +7,38 @@ body{
     font-family: sans-serif;
     
 }
+
+.carousel-container {
+  width: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-item {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+
 #first{
   display: flex;
 
@@ -22,13 +54,14 @@ h1{
 
 }
 .para1{
-
+ font-family: cComic Sans MS, Comic Sans, cursive;
 }
 .para2{
-  
+  font-variant: small-caps;
 }
 .para3{
-  
+  font-weight:600;
+  color: hotpink
 }
 .breadImages{
     display: flex;
