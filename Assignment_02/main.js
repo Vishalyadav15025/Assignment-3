@@ -21,7 +21,7 @@ function toggleDiv() {
     }
   }
   
-// changinh the HTML text of the test id
+// changing the HTML text of the test id
   document.getElementById("test").innerHTML = '"In the world of bread and pastries, magic happens. Indulging in the simplicity and beauty of freshly baked goodness. A bakery is where dreams rise and delicious memories are made."'
 
 
