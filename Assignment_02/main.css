@@ -154,4 +154,13 @@ h1{
       font-style: italic;
     }
 
+    .newStyle1{
+      border: 1px solid rgb(76, 0, 255);
+      padding: 2%;
+    }
+    .newStyle2{
+      background-color: brown;
+    }
+    
+
   
