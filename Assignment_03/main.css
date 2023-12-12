@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+
+  #countryInfo {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
