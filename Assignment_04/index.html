@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Canadian Provinces API Documentation</title>
+</head>
+<body>
+  <header>
+    <h1>Canadian Provinces API Documentation</h1>
+  </header>
+  
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Welcome to the Canadian Provinces API documentation. This API provides information about the provinces of Canada.
+      </p>
+    </section>
+
+    <section id="endpoints">
+      <h2>Endpoints</h2>
+      <p>The following endpoints are available:</p>
+
+      <ul>
+        <li>
+          <strong>GET /provinces</strong>: Get information about all Canadian provinces.
+        </li>
+        <!-- Add more endpoints if your API has them -->
+      </ul>
+    </section>
+
+    <section id="examples">
+      <h2>Examples</h2>
+      <p>Here are some examples of how to use the API:</p>
+
+      <pre>
+        <code>
+fetch('/provinces')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+        </code>
+      </pre>
+    </section>
+
+    <section id="response">
+      <h2>Response</h2>
+      <p>The API returns a JSON object with the following structure:</p>
+
+      <pre>
+        <code>
+{
+  "provinces": [
+    // Example province object
+    {
+      "name": "Alberta",
+      "abbreviation": "AB",
+      "capital": "Edmonton",
+      "population": 4421876,
+      "image": "https://example.com/alberta.jpg",
+      "randomFact": "Alberta is home to the famous Banff National Park, one of the oldest national parks in the world."
+    },
+    // Add more province objects as needed
+  ]
+}
+        </code>
+      </pre>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
